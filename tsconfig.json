@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5", // O l'versió que necessitis
+    "module": "commonjs",
+    "outDir": "./dist", // Directori d'output per als fitxers .js
+    "rootDir": "./src", // Directori arrel del codi font
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"], // Inclou tots els fitxers .ts dins de la carpeta src
+  "exclude": ["node_modules"] // Exclou node_modules
+}
